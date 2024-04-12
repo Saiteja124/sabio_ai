@@ -605,6 +605,11 @@ def video():
 #     return href
 
 
-if __name__ == '__main__':
-    # Use this for development purposes, switch to a production-ready server for deployment
-    app.run(host="0.0.0.0", port=5000)
+# if __name__ == '__main__':
+#     # Use this for development purposes, switch to a production-ready server for deployment
+#     app.run(host="0.0.0.0", port=5000)
+
+if __name__ =="__main__":
+    #start_server(main,debug=True)
+    #run the app and enable debugging
+    app.run(debug=False)
