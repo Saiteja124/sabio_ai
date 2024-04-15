@@ -612,4 +612,4 @@ def video():
 if __name__ =="__main__":
     #start_server(main,debug=True)
     #run the app and enable debugging
-    app.run(debug=False)
+    app.run(debug=True)
